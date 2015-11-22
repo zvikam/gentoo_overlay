@@ -1,0 +1,17 @@
+net-analyzer/netcat
+net-analyzer/tcpdump
+net-analyzer/traceroute
+net-analyzer/wireshark
+net-dns/bind-tools
+net-ftp/ftp
+net-misc/iperf
+net-misc/netkit-telnetd
+net-misc/ntp
+net-misc/openssh
+net-misc/openvpn
+net-misc/rdesktop
+net-misc/bridge-utils
+sys-firmware/iwl6000-ucode
+net-fs/samba
+net-misc/knemo
+dev-perl/Net-Telnet #openvpn dialogs

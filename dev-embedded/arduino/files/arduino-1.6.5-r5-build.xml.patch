@@ -1,0 +1,48 @@
+--- build/build.xml	2015-10-27 21:11:25.464330018 +0200
++++ build/build.xml	2015-10-27 21:17:45.821557776 +0200
+@@ -645,15 +645,6 @@
+ 
+     <copy todir="linux/work" file="linux/dist/arduino" />
+     <chmod perm="755" file="linux/work/arduino" />
+-
+-    <antcall target="unzip">
+-      <param name="archive_file" value="./libastylej-2.05.zip" />
+-      <param name="archive_url" value="http://downloads.arduino.cc/libastylej-2.05.zip" />
+-      <param name="final_folder" value="${staging_folder}/libastylej" />
+-      <param name="dest_folder" value="${staging_folder}" />
+-    </antcall>
+-    <copy file="linux/libastylej/libastylej${arch-bits}.so" tofile="linux/work/lib/libastylej.so" />
+-    <chmod perm="755" file="linux/work/lib/libastylej.so" />
+   </target>
+ 
+   <target name="linux32-build" depends="linux-build" description="Build linux (32-bit) version">
+@@ -661,14 +652,6 @@
+       <param name="JVM" value="${LINUX32_BUNDLED_JVM}"/>
+     </antcall>
+ 
+-    <antcall target="avr-toolchain-bundle">
+-      <param name="unpack_target" value="untar"/>
+-      <param name="gcc_archive_file" value="avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2"/>
+-      <param name="gcc_version" value="4.8.1-arduino5"/>
+-      <param name="avrdude_archive_file" value="avrdude-6.0.1-arduino5-i686-pc-linux-gnu.tar.bz2"/>
+-      <param name="avrdude_version" value="6.0.1-arduino5"/>
+-    </antcall>
+-
+     <antcall target="package-library-index-json-bundle"/>
+   </target>
+ 
+@@ -677,14 +660,6 @@
+       <param name="JVM" value="${LINUX64_BUNDLED_JVM}"/>
+     </antcall>
+ 
+-    <antcall target="avr-toolchain-bundle">
+-      <param name="unpack_target" value="untar"/>
+-      <param name="gcc_archive_file" value="avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"/>
+-      <param name="gcc_version" value="4.8.1-arduino5"/>
+-      <param name="avrdude_archive_file" value="avrdude-6.0.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"/>
+-      <param name="avrdude_version" value="6.0.1-arduino5"/>
+-    </antcall>
+-
+     <antcall target="package-library-index-json-bundle"/>
+   </target>
+ 

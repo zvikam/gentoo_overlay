@@ -1,0 +1,12 @@
+# misc
+app-doc/doxygen
+dev-util/cmake
+dev-vcs/cvs
+dev-util/indent
+dev-util/splint
+dev-util/strace
+dev-vcs/subversion
+dev-vcs/git
+dev-util/valgrind
+sys-devel/crossdev
+sys-devel/gdb

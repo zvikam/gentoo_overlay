@@ -1,0 +1,36 @@
+# i18n
+app-dicts/aspell-he
+app-dicts/myspell-en
+app-dicts/myspell-he
+app-text/convmv
+app-text/aspell
+#app-text/ispell
+
+# text
+app-editors/hexedit
+app-editors/vim
+app-vim/vim-spell-en
+
+# video
+media-video/vlc
+
+# print
+net-print/cups
+net-print/foo2zjs
+
+# other
+app-office/libreoffice
+app-cdr/k3b
+
+# web
+www-client/links
+www-client/firefox
+
+# graphics
+media-gfx/gimp
+media-gfx/imagemagick
+
+# arc
+app-arch/p7zip
+app-arch/unace
+app-arch/unrar

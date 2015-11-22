@@ -1,0 +1,29 @@
+# baselayout
+net-dialup/ppp
+net-dialup/rp-pppoe
+net-dns/dnsmasq
+net-dns/openresolv
+net-firewall/firehol
+sys-apps/ifplugd
+sys-apps/iproute2
+net-wireless/wpa_supplicant
+net-misc/dhcpcd
+
+# management
+app-admin/logrotate
+app-admin/sudo
+app-admin/syslog-ng
+sys-process/vixie-cron
+
+# boot
+media-gfx/splash-themes-livecd
+media-gfx/splashutils
+sys-power/suspend
+sys-power/hibernate-script
+app-laptop/laptop-mode-tools
+sys-boot/syslinux
+
+# misc
+media-sound/alsa-utils
+net-fs/autofs
+sys-kernel/gentoo-sources

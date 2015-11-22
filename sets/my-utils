@@ -1,0 +1,15 @@
+app-arch/sharutils
+app-arch/tarsync
+app-portage/gentoolkit
+app-portage/layman
+sys-apps/pcmciautils
+sys-apps/sdparm
+sys-fs/dosfstools
+#sys-fs/ntfsprogs
+sys-libs/libcap
+sys-power/powertop
+sys-process/iotop
+sys-process/lsof
+app-text/dos2unix
+# move app-emulation/qemu-kvm app-emulation/qemu
+app-emulation/qemu
