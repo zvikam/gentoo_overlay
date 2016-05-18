@@ -24,7 +24,6 @@ app-cdr/k3b
 
 # web
 www-client/links
-www-client/firefox
 
 # graphics
 media-gfx/gimp
