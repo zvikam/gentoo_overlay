@@ -19,7 +19,7 @@ net-print/cups
 net-print/foo2zjs
 
 # other
-app-office/libreoffice
+app-office/libreoffice-bin
 app-cdr/k3b
 
 # web
